@@ -31,6 +31,7 @@ class ViewController: UITableViewController {
     func setupTableView() -> Void {
         tableView.delegate = self
         tableView.dataSource = self
+        automaticallyAdjustsScrollViewInsets = false
         tableView.rowHeight = 80.0
     }
     

@@ -43,6 +43,7 @@ class TableViewCell: UITableViewCell {
     }
     
     override func layoutSubviews() {
+        super.layoutSubviews()
         iconImage?.snp_makeConstraints(closure: { (make) in
             make.left.top.equalTo(10)
             make.bottom.equalTo(-10)
