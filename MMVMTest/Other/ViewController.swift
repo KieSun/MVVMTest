@@ -21,7 +21,6 @@ class ViewController: UITableViewController {
         setupNavigationItem()
         setupTableView()
         loadData()
-        
     }
 
     func setupNavigationItem() -> Void {

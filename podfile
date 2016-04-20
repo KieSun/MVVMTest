@@ -4,3 +4,4 @@ use_frameworks!
 pod 'SwiftyJSON', '~> 2.3.2'
 pod 'Alamofire', '~> 3.3.0'
 pod 'Kingfisher', '~> 2.2.2'
+pod 'SnapKit', '~> 0.20.0'

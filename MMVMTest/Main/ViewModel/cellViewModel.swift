@@ -19,7 +19,6 @@ class cellViewModel: NSObject {
         let parameters = ["limit": 20,
                           "skip": 0]
     
-        
         Networking.get(mainUrl, parameters: parameters, success: { (json) in
             var others: [cellModel]?
             others = []
