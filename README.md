@@ -1,4 +1,4 @@
-# MMVMTest
+# MVVMTest
 MVVM的一次实践 Swift版
 
 参考自[MVVM](https://github.com/shenAlexy/MVVM)
